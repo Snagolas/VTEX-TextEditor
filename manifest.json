@@ -1,0 +1,32 @@
+{
+	"name": "VTEX-TextEditor",
+	"version": "1.0",
+	"description": "Editar os Textos descritivos da VTEX de maneira fácil",
+	// "browser_action": {
+	// 	"default_popup": "popup.html"
+	// },
+	"manifest_version":2,
+	"permissions": ["tabs"],
+	"content_scripts": [
+		{
+			"matches":[
+				"https://casacenter.vtexcommercestable.com.br/admin/Site/ProdutoForm.aspx*"				
+			],
+			"js":[
+				"jquery-3.3.1.min.js",
+				"trumbowyg.min.js",
+				"script.js"
+			],
+			"css":[
+				"trumbowyg.min.css",
+				"trumbowyg-fontawesome-icons.css"				
+			],			
+			"run_at": "document_end",
+			"persistent": false
+		}	
+	],
+	"web_accessible_resources": [
+		"icons.svg"
+	]
+
+}

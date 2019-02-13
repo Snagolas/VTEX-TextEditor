@@ -1,0 +1,206 @@
+.trumbowyg-viewHTML-button:after {
+	font-family: FontAwesome;
+	content: "\f121";
+}
+
+.trumbowyg-undo-button:after {
+	font-family: FontAwesome;
+	content: "\f0e2";
+}
+
+.trumbowyg-redo-button:after {
+	font-family: FontAwesome;
+	content: "\f01e";
+}
+
+.trumbowyg-formatting-button:before {
+	font-family: FontAwesome;
+	content: "\f1dd";
+}
+
+.trumbowyg-strong-button:after {
+	font-family: FontAwesome;
+	content: "\f032";
+}
+
+.trumbowyg-em-button:after {
+	font-family: FontAwesome;
+	content: "\f033";
+}
+
+.trumbowyg-del-button:after {
+	font-family: FontAwesome;
+	content: "\f0cc";
+}
+
+.trumbowyg-superscript-button:after {
+	font-family: FontAwesome;
+	content: "\f12b";
+}
+
+.trumbowyg-subscript-button:after {
+	font-family: FontAwesome;
+	content: "\f12c";
+}
+
+.trumbowyg-link-button:before {
+	font-family: FontAwesome;
+	content: "\f0c1";
+}
+
+.trumbowyg-insertImage-button:after {
+	font-family: FontAwesome;
+	content: "\f03e";
+}
+
+.trumbowyg-justifyLeft-button:after {
+	font-family: FontAwesome;
+	content: "\f036";
+}
+
+.trumbowyg-justifyCenter-button:after {
+	font-family: FontAwesome;
+	content: "\f037";
+}
+
+.trumbowyg-justifyRight-button:after {
+	font-family: FontAwesome;
+	content: "\f038";
+}
+
+.trumbowyg-justifyFull-button:after {
+	font-family: FontAwesome;
+	content: "\f039";
+}
+
+.trumbowyg-unorderedList-button:after {
+	font-family: FontAwesome;
+	content: "\f03a";
+}
+
+.trumbowyg-orderedList-button:after {
+	font-family: FontAwesome;
+	content: "\f0cb";
+}
+
+.trumbowyg-horizontalRule-button:after {
+	font-family: FontAwesome;
+	content: "\f068";
+}
+
+.trumbowyg-removeformat-button:after {
+	font-family: FontAwesome;
+	content: "\f12d";
+}
+
+.trumbowyg-fullscreen-button:after {
+	font-family: FontAwesome;
+	content: "\f0b2";
+}
+
+.trumbowyg-bold-button:after {
+	font-family: FontAwesome;
+	content: "\f032";
+}
+
+.trumbowyg-italic-button:after {
+	font-family: FontAwesome;
+	content: "\f033";
+}
+
+.trumbowyg-underline-button:after {
+	font-family: FontAwesome;
+	content: "\f0cd";
+}
+
+.trumbowyg-strikethrough-button:after {
+	font-family: FontAwesome;
+	content: "\f0cc";
+}
+
+.trumbowyg-foreColor-button:before {
+	font-family: FontAwesome;
+	content: "\f031";
+}
+
+.trumbowyg-backColor-button:before {
+	font-family: FontAwesome;
+	content: "\f031";
+	color: #ecf0f1;
+	background-color: #555555;
+	padding: 1px;
+	font-size: 85%;
+	line-height: 200%;
+}
+
+
+/*===== DROPDOWN BUTTONS =====*/
+
+.trumbowyg-p-dropdown-button:before {
+	content: "";
+    display: block;
+    background: url("https://cdn.iconscout.com/icon/free/png-256/paragraph-38-434377.png") no-repeat;
+   	background-size: 100%;
+    width: 15px;
+    height: 15px;
+    float: left;
+    margin: 10px 10px 15px 0;
+	color: transparent;	
+	background-position: center;
+}
+
+.trumbowyg-blockquote-dropdown-button:before {
+	font-family: FontAwesome;
+	content: "\f10d";
+	margin-right: 10px;
+}
+
+.trumbowyg-h1-dropdown-button:before,
+.trumbowyg-h2-dropdown-button:before,
+.trumbowyg-h3-dropdown-button:before,
+.trumbowyg-h4-dropdown-button:before {
+	content: "";
+    display: block;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF139HLCcDFnMsI9I5PanWeGZB5bavXbWNsS63x5LjoKGT3Jqm") no-repeat;
+   	background-size: 100%;
+    width: 15px;
+    height: 15px;
+    float: left;
+    margin: 10px 10px 15px 0;
+	color: transparent;	
+	background-position: center;
+}
+
+.trumbowyg-createLink-dropdown-button:before {
+	font-family: FontAwesome;
+	content: "\f0c1";
+	margin-right: 10px;
+}
+
+.trumbowyg-unlink-dropdown-button:before {
+	font-family: FontAwesome;
+	content: "\f127";
+	margin-right: 10px;
+}
+.trumbowyg-fullscreen {    
+    top: 40px;
+    height: calc(100% - 40px);
+}
+.trumbowyg-fullscreen:before{
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    left: 0;
+    top: 0;
+    content: 'Editor by: Casa.Center';
+    padding: 15px;
+    display: block;
+    background: #ecf0f1;
+}
+.trumbowyg-formatting-button::before{
+	background: url(https://cdn.iconscout.com/icon/free/png-256/paragraph-38-434377.png);
+	background-size: 140%;	
+	color: transparent;
+	background-repeat: no-repeat;
+	background-position: center;	
+}
